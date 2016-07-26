@@ -1,0 +1,7 @@
+patientID,timeToEndTherapy,brca1,usp1,vital_status
+pt-1,56,3.3,2.5,alive
+pt-2,41,4.9,2.7,dead
+pt-2,61,4.8,2.0,alive
+pt-4,15,1.7,8.8,dead
+pt-5,21,0.9,9.9,dead
+pt-6,14,0.5,10.5,alive
