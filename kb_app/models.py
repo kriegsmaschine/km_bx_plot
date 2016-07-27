@@ -12,7 +12,7 @@ class Patient_Data(models.Model):
 						   	('D', 'Dead')
 						  )
 
-	endTherapy   = models.IntegerField(default = 0)
+	lastContact  = models.FloatField(default = 0)
 	exp_brca1    = models.FloatField(default = 0)
 	exp_usp1     = models.FloatField(default = 0)
 	vital_status = models.CharField(max_length=1, 
@@ -24,4 +24,4 @@ class Patient_Data(models.Model):
 		verbose_name_plural = 'Patient Data'
 
 	def __str__(self):
-		return self.
+		return str(self.patient)
